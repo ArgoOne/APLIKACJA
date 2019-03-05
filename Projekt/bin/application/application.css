@@ -1,0 +1,26 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.background1{
+	-fx-background-color:CORNFLOWERBLUE;
+
+}
+
+.background2{
+	-fx-background-color:CADETBLUE;
+
+}
+
+.background3{
+	-fx-background-color:STEELBLUE;
+
+}
+
+.button1{
+	-fx-background-color:AQUAMARINE;
+	-fx-font: bold 15.0pt 'sans-serif';
+}
+
+.button2{
+	-fx-background-color:HONEYDEW;
+	-fx-font: bold 10.0pt 'sans-serif';
+}

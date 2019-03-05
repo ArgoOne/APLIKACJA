@@ -1,0 +1,1 @@
+warszawa;stolica polski;8;moskwa;miasto w rosji;6;berlin;stolica niemiec;6;paryz;miasto francji;5;krokus;wiosenny kwiat;6;madryt;stolica hiszpani;6;egipt;panstwo w afryce;5;okulary;do czytania;7;ksiazka;w bibliotece;7;komputer;jednostka liczaca;8;buda;dom dla psa;4;pierscionek;na palcu;11;auto;w garazu;4;lądek;miasto w Polsce;5;

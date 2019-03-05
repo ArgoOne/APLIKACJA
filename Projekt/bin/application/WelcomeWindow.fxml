@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="stageOne" prefHeight="700.0" prefWidth="800.0" styleClass="background1" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WelcomeWindowController">
+   <children>
+      <VBox layoutX="35.0" layoutY="591.0" spacing="10.0">
+         <children>
+            <Text fill="#fafdff" strokeType="OUTSIDE" strokeWidth="0.0" text="JOANNA JANKOWSKA 16.02.2018" wrappingWidth="253.7294921875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="#1eff2d" strokeType="OUTSIDE" strokeWidth="0.0" text="PROJEKT PRZEJSCIOWY">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="250.0" layoutY="445.0" spacing="20.0" AnchorPane.rightAnchor="269.0">
+         <children>
+            <Button fx:id="stageOneEnterButton" mnemonicParsing="false" onAction="#stageOneEnter" styleClass="button1" stylesheets="@application.css" text="WEJDZ DO PROGRAMU" />
+            <Button fx:id="stageOneExitButton" mnemonicParsing="false" onAction="#stageOneExit" styleClass="button1" text="ANULUJ" />
+         </children>
+      </VBox>
+      <Text layoutX="220.0" layoutY="317.0" strokeWidth="0.0" text="APLIKACJA DO WCZYTYWANIA, EDYCJI I ZAPISYWANIA DANYCH" textAlignment="CENTER" wrappingWidth="340.88964139917516" AnchorPane.rightAnchor="239.11035860082484">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#433939" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#9fdd82e0" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <ImageView fitHeight="182.0" fitWidth="420.0" layoutX="172.0" layoutY="70.0" AnchorPane.rightAnchor="200.0">
+         <image>
+            <Image url="@dane.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
